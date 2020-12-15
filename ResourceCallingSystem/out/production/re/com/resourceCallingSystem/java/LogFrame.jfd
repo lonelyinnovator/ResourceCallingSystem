@@ -1,0 +1,94 @@
+JFDML JFormDesigner: "6.0.6.2.195" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.GridBagLayout ) {
+			"$columnSpecs": "97, 101, 233, 115, 99"
+			"$rowSpecs": "baseline:57, baseline:98, baseline:59, baseline:62, baseline:96, baseline:0"
+			"$hGap": 7
+			"$vGap": 7
+			"$alignTop": true
+			"$alignLeft": true
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Resource Calling System"
+				"font": new java.awt.Font( "Consolas", 0, 24 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridx": 2
+				"gridy": 1
+				"hAlign": 0
+				"vAlign": 5
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "UserName:"
+				"font": new java.awt.Font( "Consolas", 0, 18 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridx": 1
+				"gridy": 2
+				"hAlign": 0
+				"vAlign": 0
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField1"
+				"font": new java.awt.Font( "Consolas", 0, 20 )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "textField1KeyTyped", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridx": 2
+				"gridy": 2
+				"vAlign": 5
+				"gridwidth": 2
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Password:"
+				"font": new java.awt.Font( "Consolas", 0, 18 )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridx": 1
+				"gridy": 3
+				"hAlign": 0
+				"vAlign": 0
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "passwordField2"
+				"font": new java.awt.Font( "Consolas", 0, 20 )
+				addEvent( new FormEvent( "java.awt.event.KeyListener", "keyTyped", "passwordField2KeyTyped", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridx": 2
+				"gridy": 3
+				"gridwidth": 2
+				"vAlign": 5
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button1"
+				"text": "Log in"
+				"font": &Font0 new java.awt.Font( "Consolas", 0, 16 )
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button1ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridx": 1
+				"gridy": 4
+				"hAlign": 0
+				"vAlign": 0
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "Log up"
+				"font": #Font0
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button2ActionPerformed", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.GridBagConstraintsEx ) {
+				"gridx": 3
+				"gridy": 4
+				"hAlign": 0
+				"vAlign": 0
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 730, 505 )
+		} )
+	}
+}

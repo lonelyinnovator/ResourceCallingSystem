@@ -1,0 +1,2 @@
+D251 Hello_world 0.2f document .txt 50
+D162 Good_bye 0.1f document .txt 30
